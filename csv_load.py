@@ -27,7 +27,7 @@ f"""CREATE OR REPLACE TABLE {table_name} (
 );"""
 
 print(create_table_sql)
-move_on = input('Review the create table statment. Continue? "y" or "n"')
+move_on = input('Review the create table statment. Continue? "y" or "n" ')
 
 if move_on == 'y':
     # Connect to Snowflake
